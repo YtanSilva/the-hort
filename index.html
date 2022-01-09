@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hort</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon"  href="./image/h.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> hort</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">serviço</a>
+            <a href="#products">produtos</a>
+            <a href="#">categorias</a>
+            <a href="#">saiba mais</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="procure aqui...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-1.png" alt="">
+                <div class="content">
+                    <h3>melancia</h3>
+                    <span class="price">R$ 11,99</span>
+                    <span class="quantity">qnt : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./image/cart-img-2.png" alt="">
+                <div class="content">
+                    <h3>cebola</h3>
+                    <span class="price">R$ 4,99</span>
+                    <span class="quantity">qnt : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./image/cart-img-3.png" alt="">
+                <div class="content">
+                    <h3>chicken</h3>
+                    <span class="price">R$ 24,99</span>
+                    <span class="quantity">qnt : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : R$41,97</div>
+            <a href="#" class="btn">finalizar compra</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>entrar agora</h3>
+            <input type="email" placeholder="seu email" class="box">
+            <input type="password" placeholder="sua senha" class="box">
+            <p>esqueci minha senha? <a href="#">click aqui</a></p>
+            <p>não tem uma conta? <a href="#">crie sua conta agora</a></p>
+            <input type="submit" value="entrar agora" class="btn">
+        </form>
+    </header>
+    <main class="main">
+        
+        <section class="home" id="home">
+            <div class="content">
+                <h3>
+                    produtos <span>orgânicos</span> e frescos em um click.
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a href="#" class="btn">comprar já</a>
+            </div>
+        </section>
+        
+        <section id="features" class="features">
+            <h1 class="heading">nossos <span>serviços</span></h1>
+            
+            <div class="box-container">
+                
+                <div class="box">
+                    <img src="./image/feature-img-1.png" alt="">
+                    <h3>orgânico e frescos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="#" class="btn">ler mais</a>
+                </div>
+                <div class="box">
+                    <img src="./image/feature-img-2.png" alt="">
+                    <h3>entrega gratis</h3>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="#" class="btn">ler mais</a>
+                </div>
+                <div class="box">
+                    <img src="./image/feature-img-3.png" alt="">
+                    <h3>pagamento facil</h3>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="#" class="btn">ler mais</a>
+                </div>
+            </div>
+        </section>
+        <section class="products" id="products">
+            <h1 class="heading">nossos<span>produtos</span></h1>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="./image/product-1.png" alt="">
+                        <h3>laranja orgânica</h3>
+                        <div class="price">R$ 3,49 - 8,99</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./image/product-2.png" alt="">
+                        <h3>cebola orgânica</h3>
+                        <div class="price">R$ 3,49 - 8,99</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./image/product-3.png" alt="">
+                        <h3>carne fresca</h3>
+                        <div class="price">R$ 35,49 - 89,99</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./image/product-4.png" alt="">
+                        <h3>repolho orgânico</h3>
+                        <div class="price">R$ 3,49 - 8,99</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="./image/product-5.png" alt="">
+                        <h3>batata orgânica</h3>
+                        <div class="price">R$ 3,49 - 8,99</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./image/product-6.png" alt="">
+                        <h3>abacate orgânico</h3>
+                        <div class="price">R$ 3,49 - 8,99</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./image/product-7.png" alt="">
+                        <h3>cenoura orgânica</h3>
+                        <div class="price">R$ 3,49 - 8,99</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./image/product-8.png" alt="">
+                        <h3>limão orgânico</h3>
+                        <div class="price">R$ 3,49 - 8,99</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="categories" id="categories">
+            <h1 class="heading">categoria de <span>produtos</span></h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="./image/cat-1.png" alt="">
+                    <h3>vegetais</h3>
+                    <p>acima de 45% de desconto</p>
+                    <a href="#" class="btn">comprar já</a>
+                </div>
+                <div class="box">
+                    <img src="./image/cat-2.png" alt="">
+                    <h3>frutas orgânicas</h3>
+                    <p>acima de 45% de desconto</p>
+                    <a href="#" class="btn">comprar já</a>
+                </div>
+                <div class="box">
+                    <img src="./image/cat-4.png" alt="">
+                    <h3>carne fresca</h3>
+                    <p>acima de 45% de desconto</p>
+                    <a href="#" class="btn">comprar já</a>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>hort <i class="fas fa-shopping-basket"></i></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe</p>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>informações para contato</h3>
+                    <a href="#" class="links"><i class="fas fa-phone"></i> +55 54 99988-7766</a>
+                    <a href="#" class="links">
+                        <i class="fas fa-phone"></i> +55 54 99911-2233
+                    </a>
+                    <a href="#" class="links">
+                        <i class="fas fa-envelope"></i> contato@contato.com
+                    </a>
+                    <a href="#" class="links">
+                        <i class="fas fa-map-marker-alt"></i> são paulo, brasil</a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i> home</a>
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i> serviços</a>
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i> produtos</a>
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i> categorias</a>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer></footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
